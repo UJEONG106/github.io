@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>신우정 - LIFE</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Noto+Sans+KR:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Noto Sans KR', sans-serif; background-color: #FFFFFF; color: #4A4036; padding: 100px 12%; }
+
+        /* 상단 네비게이션: index2.html로 연결 */
+        .navbar { position: fixed; top: 0; right: 0; padding: 30px 8%; z-index: 1000; }
+        .nav-link { text-decoration: none; color: #A6978A; font-family: 'Montserrat', sans-serif; font-size: 0.8rem; margin-left: 30px; letter-spacing: 0.1rem; }
+        .nav-link:hover { color: #4A4036; }
+
+        .title { font-family: 'Montserrat'; font-size: 2rem; color: #BCA895; margin-bottom: 60px; }
+
+        /* 학력 타임라인 */
+        .history-list { list-style: none; }
+        .history-item { margin-bottom: 40px; padding-left: 30px; border-left: 1px solid #EAE2D8; position: relative; }
+        .history-item::before { content: ""; position: absolute; left: -4px; top: 5px; width: 7px; height: 7px; background-color: #D9C5B2; border-radius: 50%; }
+        
+        .history-item h3 { font-weight: 500; font-size: 1.2rem; margin-bottom: 5px; }
+
+        /* 돌아가기 버튼: index2.html로 연결 */
+        .back-btn { display: inline-block; margin-top: 50px; padding: 15px 30px; border: 1px solid #EAE2D8; border-radius: 50px; text-decoration: none; color: #6B5E51; font-family: 'Montserrat'; font-size: 0.8rem; transition: 0.4s; }
+        .back-btn:hover { background-color: #FDFBFA; border-color: #D9C5B2; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index2.html" class="nav-link">HOME</a>
+    </nav>
+
+    <h2 class="title">LIFE</h2>
+
+    <ul class="history-list">
+        <li class="history-item">
+            <h3>월촌초등학교 졸업</h3>
+        </li>
+        <li class="history-item">
+            <h3>월촌중학교 졸업</h3>
+        </li>
+        <li class="history-item">
+            <h3>진명여자고등학교 졸업</h3>
+        </li>
+        <li class="history-item">
+            <h3>동양미래대학교 재학중</h3>
+        </li>
+    </ul>
+
+    <a href="index2.html" class="back-btn">BACK TO HOME</a>
+
+</body>
+</html>
